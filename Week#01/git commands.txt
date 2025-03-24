@@ -1,0 +1,14 @@
+----> .git folder comands which to be done in "Git GUI bash here", to be run on the folder of the code
+-> git init
+-> git add .
+-> git commit -m "whatever"
+-> git remote add origin https://github.com/irbaz51161/filename.git
+-> git push -u origin master
+
+
+----> To be run these commands in VS code
+-> git status
+-> git add .         [changes I did will replace in .git folder / Changes will happen in full folder even in sub folders]
+-> git add code.py   [only chnage that sub folder which we updated or changed]
+-> git commit -m "second time commiting" 
+-> git push
