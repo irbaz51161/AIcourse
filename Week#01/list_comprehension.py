@@ -1,7 +1,7 @@
-# LIST COMPREHENSION
-# USING LIST SLICING AND UNDERSTANDING [-1:-1] STUFF
-# GIT COMMANDS
-# TUPLE IDEA
+# LIST COMPREHENSION                                          DONE ✔️
+# USING LIST SLICING AND UNDERSTANDING [-1:-1] STUFF          DONE ✔️
+# GIT COMMANDS                                                DONE ✔️
+# TUPLE IDEA                                                  DONE ✔️
 
 # values = int(input("How many values you want to enter: "))
 # user_list = []
