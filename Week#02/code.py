@@ -26,6 +26,7 @@
 
 tt = ["lahore", "islamad", "london"]
 print(list(tt))
+print(list(tt))
 
 # tt1 = (1, 2, 3, 4)
 # tup3 = tt1 + tt
