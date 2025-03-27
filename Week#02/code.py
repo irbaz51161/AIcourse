@@ -87,7 +87,24 @@
 # del dic
 # print(dic)
 
-# ------------------- 24 - Pass by reference / Pass by value
+# dic = {
+#     "name":"zahid",
+#     "age":23,
+#     "fruits":{
+#         "brand1":"Dior",
+#         "brand2":"LV"
+#         }}
+# print(dic)
+# dic.update({"fruits":{"fruits1":"apple"}, "vegetables":{"veg1":"potato"}})
+# print(dic)
+# dic.pop("fruits")
+# print(dic)
+
+
+# QUESTION, USER DICTIONARY
+
+
+# ------------------- 24 - Pass by reference / Pass by value -------------
 # Pass by value - Primitive data types
 # a =10
 # b = a
@@ -104,6 +121,44 @@
 # dic1["name"] = "shabanna"
 # print(dic1, dic2)
 
+# ------------------- 25 - FUNCTIONS ---------------------------------------
+# def s():
+#     print("Whats up man!")
+# s()
+
+# def func(name, age):           #if we put pass the value with a parameter again then it will get overwrite with the value pass in the function
+#     print("Hello World", name, age)
+# func("Irbaz", 22)
+
+# def func(name = "Karamat", age = 60):        # if we gave one default parameter then we have to give default values to all the rest of the variable in the function as well
+#     print("Hello World", name, age)
+# func("Irbaz", 22)
+# func()
+
+# def func(name, *age):
+#     print("Hello World" + " " + name + " " + str(age[2]))  #we can call using indexing
+# func("Irbaz", 22, 234, 5353)        #all the values will be entered into the asteric
+
+# def fun(**kwargs):
+#     print(kwargs["name"] + " " + str(kwargs["age"]))
+# fun(name = "Irbaz", age = 22)
+
+# def fun():
+#     pass
+# fun()
+
+# ------------------- 26 - Exception Hnadling ------------------------
+# X = 23
+# try:
+#     print(f"X is {X}")
+# except:
+#     print("ERROR BITCH")
+# finally:
+#     print("I AM IDIOT! I WILL STILL RUN B@STARDS")
+
+# ------------------- 27 - Anonymous Function -------------------
+# x = lambda a, b, c:a * (b / c)      #in Lambda return is built-in
+# print(x(2, 4, 2))
 
 
 # CODE 01
@@ -139,24 +194,6 @@
 
 
 
-# SET1 + SET2 + SET3 + SET4
-# Join all of em using Union
-# Simple convert into List then Tuple
-
-# set1 = {"Addidas", "Bata", "Gucci", "Servis"}
-# set2 = {"copy", "pencil", "marker", "what?", "cisco", "who?"}
-# set3 = {"Dior", "Chanel","LV","Stylo", "Outfitters", "Nike"}
-# set4 = {"HP", "Dell", "Mac", "Azure", "Chromebook", "Lenovo"}
-# main_set = set1 | set2 | set3 | set4        #adding all sets using union 
-# print(main_set)
-# ls = list(main_set)
-# print(ls)
-# tup = tuple(ls)
-# print(tup)
-
-
-
-
 
 # ASSIGNMENT
 # 5 methods
@@ -184,6 +221,23 @@
 # tt1 = (1, 2, 3, 4)
 # tup = tt1 + tt
 
+# SET1 + SET2 + SET3 + SET4
+# Join all of em using Union
+# Simple convert into List then Tuple
+
+# set1 = {"Addidas", "Bata", "Gucci", "Servis"}
+# set2 = {"copy", "pencil", "marker", "what?", "cisco", "who?"}
+# set3 = {"Dior", "Chanel","LV","Stylo", "Outfitters", "Nike"}
+# set4 = {"HP", "Dell", "Mac", "Azure", "Chromebook", "Lenovo"}
+# main_set = set1 | set2 | set3 | set4        #adding all sets using union 
+# print(main_set)
+# ls = list(main_set)
+# print(ls)
+# tup = tuple(ls)
+# print(tup)
+
+
+
 # ------------------- MIT -------------------------------
 #01. Primitive data types = Pass by value [Aek value ke change hony se doosri value channge nahi ho gi 'different addresses]
 #02. Non-Primitive data types = Pass by Reference [Aek value ke change hony se doosri value channge ho gi automatically  'same addresses] [list, tuples, dict]
@@ -196,7 +250,9 @@
 #09. API
 #10. Shallow Copy & Deep Copy [this will change the values even in the nested dic-list-tuple]
 #11. CRUD - Create Read Update Delete
-
-
-# ls = ["Shahzaib","Talha","Zunnurain"]
-# tup = ("Shahzaib","Ahmad","Hassaan")
+#12. Kivi android apps library
+#13. tkinter is also a library, UI library
+#14. C# is used for desktop application
+#15. APK stands for Application Package Kit + iOS stands for 
+#16. Single asteric (*) means arbitrary arguments [We pick indexes and work with them] and double asteric (**) means kwargs [we work with dictionaries in it]
+#17. Ruturn will push to the server and also will print it to the user.
