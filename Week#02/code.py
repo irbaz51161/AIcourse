@@ -279,14 +279,14 @@
 
 # print(dic)
 
-def checker(n):
-    flagg = False
-    if n == 500:
-        flagg = True
-    print(f"Your number {n} is {flagg}")
+# def checker(n):
+#     flagg = False
+#     if n == 500:
+#         flagg = True
+#     print(f"Your number {n} is {flagg}")
 
-num = 50 + 70 - 20 * 2 / 5
-checker(num)
+# num = 50 + 70 - 20 * 2 / 5
+# checker(num)
 
 
 # ------------------- MIT -------------------------------

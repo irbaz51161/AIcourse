@@ -1,5 +1,0 @@
-# ------------------- MIT = MOST IMPORTANT QUESTIONS ----------------------
-#01. Difference between mutable and immutable
-#02. 4 bit = 1 nibble | 8 bits = 1 byte
-#03. In multiline string, does it change the types or length? NO!
-#04. p = "hello world hello world is good." Question is what are the most repeated words in the string and how much time it came?
